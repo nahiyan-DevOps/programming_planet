@@ -8,5 +8,5 @@ source /opt/programming_planet/venv/bin/activate
 echo "venv activated"
 pip3 install -r /opt/programming_planet/requirements.txt
 echo "requirements installed"
-streamlit run /opt/programming_planet/app.py
-echo "application running"
+#streamlit run /opt/programming_planet/app.py
+#echo "application running"
