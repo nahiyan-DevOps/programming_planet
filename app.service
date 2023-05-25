@@ -4,9 +4,9 @@ After=multi-user.target
 
 [Service]
 Type=simple
-User=root
+User=ansible
 ExecStart=/opt/programming_planet/start-app.sh
-Restart=on-failure
+Restart=always
 RestartSec=15
 KillMode=control-group
 
