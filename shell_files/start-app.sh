@@ -1,3 +1,3 @@
 cd /opt/programming_planet
-source venv/bin/activate
-streamlit run app.py
+source /opt/programming_planet/venv/bin/activate
+streamlit /opt/programming_planet/app.py
