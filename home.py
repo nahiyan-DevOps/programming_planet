@@ -24,6 +24,7 @@ def home():
     st.subheader("Programming Planet is a place where every newbie can get a head start to the magical world of coding")
     st.empty()
     st.subheader("About Me")
+    st.text("Send me an email or give me a call if you want to collaborate")
     # MySQL database connection details
     host = '192.168.20.112'
     port = 3306
@@ -64,3 +65,5 @@ def home():
         if connection.is_connected():
             cursor.close()
             connection.close()
+            
+   
